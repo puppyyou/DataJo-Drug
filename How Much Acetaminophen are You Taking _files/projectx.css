@@ -1,0 +1,3031 @@
+
+#projectx {
+  position: relative;
+}
+
+.further-reading {
+  margin: auto;
+  display: inline-block;
+}
+
+
+#projectx .soundcite-loaded {
+  border-radius: 3px;
+padding: 0 5px 0 5px;
+display: inline-block;
+cursor: pointer;
+background: #f1eee6;
+line-height: 1.3em;
+}
+#projectx #hutto-promo .insert{
+background: #f7f7f7;
+border: 0px;
+display: inline-block;
+}
+
+#projectx #hutto-promo .hutto-box span {
+font-weight: 200;
+clear: both;
+display: block;
+font-size: 18px;
+font-style: italic;
+padding-top: 10px;
+}
+
+#projectx #hutto-promo .hutto-box span:first-letter {
+  margin-left:-7px;
+}
+
+#projectx #hutto-promo .hutto-box {
+  float: left;
+  margin-left:20px;
+  max-width: 200px
+}
+#projectx #hutto-promo .hutto-box:last-child {
+  margin:10px 20px 0px 20px;
+}
+#projectx .hutto-box img {
+  width:200px;
+}
+
+#projectx .soundcite:hover.soundcite-loaded {
+background: #e3e0da;
+}
+
+
+#projectx .soundcite-play:before {
+font-size: 0.8em;
+position: relative;
+top: -.15em;
+border: 0.5em solid transparent;
+left: .15em;
+border-left: 0.75em solid #666 !important;
+}
+
+#projectx .soundcite-play:hover:before {
+border-left: 0.75em solid #444 !important;
+}
+
+#projectx .soundcite-pause:before {
+border-left: .75em double #666 !important;
+top:-.2em;
+height:.9em;
+left: .15em;
+}
+
+#projectx .soundcite-pause:hover:before {
+border-left: .75em double #444 !important;
+}
+
+#comments {
+  display: none;
+}
+.print-only {
+  display: none !important
+}
+#projectx #tylenolcinemagram_box {
+  height: 540px;
+  overflow: hidden;
+  width: 100%;
+   position: relative;
+}
+
+#projectx #tylenolcinemagram_box img {
+  animation:move 10s ease alternate; /* Change this to alternate to stop the loop. */
+  -ms-animation:move 10s ease alternate;
+  -webkit-animation:move 10s ease alternate;
+  -0-animation:move 10s ease alternate;
+  -moz-animation:move 10s ease alternate;
+  position: absolute;
+  top:0px;
+
+}
+
+
+@-webkit-keyframes move {
+  from {
+    transform: translateY(-60px);
+    -ms-transform: translateY(-60px); /* IE 9 */
+    -webkit-transform: translateY(-60px); /* Safari and Chrome */
+    -o-transform: translateY(-60px); /* Opera */
+    -moz-transform: translateY(-60px); /* Firefox */
+  }
+
+  to {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px); /* IE 9 */
+    -webkit-transform: translateY(0px); /* Safari and Chrome */
+    -o-transform: translateY(0px); /* Opera */
+    -moz-transform: translateY(0px); /* Firefox */
+  }
+
+}
+
+@-moz-keyframes move {
+  from {
+    transform: translateY(-60px);
+    -ms-transform: translateY(-60px); /* IE 9 */
+    -webkit-transform: translateY(-60px); /* Safari and Chrome */
+    -o-transform: translateY(-60px); /* Opera */
+    -moz-transform: translateY(-60px); /* Firefox */
+  }
+
+  to {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px); /* IE 9 */
+    -webkit-transform: translateY(0px); /* Safari and Chrome */
+    -o-transform: translateY(0px); /* Opera */
+    -moz-transform: translateY(0px); /* Firefox */
+  }
+
+}
+
+
+@keyframes move {
+  from {
+    transform: translateY(-60px);
+    -ms-transform: translateY(-60px); /* IE 9 */
+    -webkit-transform: translateY(-60px); /* Safari and Chrome */
+    -o-transform: translateY(-60px); /* Opera */
+    -moz-transform: translateY(-60px); /* Firefox */
+  }
+
+  to {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px); /* IE 9 */
+    -webkit-transform: translateY(0px); /* Safari and Chrome */
+    -o-transform: translateY(0px); /* Opera */
+    -moz-transform: translateY(0px); /* Firefox */
+  }
+
+}
+
+@-o-keyframes move {
+  from {
+    transform: translateY(-60px);
+    -ms-transform: translateY(-60px); /* IE 9 */
+    -webkit-transform: translateY(-60px); /* Safari and Chrome */
+    -o-transform: translateY(-60px); /* Opera */
+    -moz-transform: translateY(-60px); /* Firefox */
+  }
+
+  to {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px); /* IE 9 */
+    -webkit-transform: translateY(0px); /* Safari and Chrome */
+    -o-transform: translateY(0px); /* Opera */
+    -moz-transform: translateY(0px); /* Firefox */
+  }
+
+}
+
+
+* { -webkit-text-size-adjust: none; }
+
+#comment_box {
+clear: both;
+margin: 10px auto;
+width: 100%;
+}
+
+#content .wrapper {
+  border-right: 0px !important;
+}
+
+#projectx #major-takeaways p span:first-child {
+font-size: 18px;
+font-weight: 700;
+margin-right: 5px;
+position: relative;
+top: 2px;
+}
+
+#projectx .insert_container.right_insert.no-top-line, #projectx .narrower_text .insert_container.right_insert.no-top-line {
+  margin-top:-40px;
+}
+
+#projectx .insert_container.right_insert.no-top-line .insert{
+  padding-top:0px;
+  border-top:0px;
+}
+
+/*#major-takeaways p span {
+font-size: 18px;
+font-weight: 700;
+margin: 1px 0px 0px -15px;
+left: -5px;
+position: relative;
+width: 15px;
+display: block;
+float: left;
+}*/
+
+/*  STYLES FOR SLIDESHOW */
+
+#projectx .full_insert .graphic.slideshow {
+  overflow: hidden;
+}
+#projectx #history-of-advertising {
+  position: relative;
+}
+
+#projectx .insert_container p.graphic_caption {
+  font-size: 11px;
+color: #666;
+}
+
+#projectx .insert_container #timelapse_graphic p.graphic_caption {
+  position: relative;
+  left:-30px;
+}
+
+
+#projectx .slideshow_nav {
+  cursor:pointer;
+  padding-top: 15px;
+
+}
+
+#projectx .slideshow_nav span{
+ position: absolute;
+}
+#projectx .insert_caption {
+  clear: both;
+display: block;
+padding: 20px 0px 0px 50px;
+color: #666;
+font-size: 11px;
+}
+
+#projectx .slideshow_nav span {
+font-size: 10px;
+font-family: Arial;
+text-transform: uppercase;
+cursor: pointer;
+transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+-moz-transition: all 0.10s ease-in-out;
+-o-transition: all 0.10s ease-in-out;
+width: 30px;
+height: 30px;
+opacity: .3;
+}
+
+ #projectx .slideshow_nav span.slideshow_prev {
+top: 22%;
+left: 100px;
+z-index: 1
+}
+
+#projectx .slideshow_nav span.slideshow_next {
+top: 22%;
+right: 100px;
+z-index: 1
+}
+
+#projectx .slideshow_nav span:hover {
+opacity: .7;
+}
+
+#projectx .video_image {
+  position: relative;
+}
+
+#projectx .slideshow_nav span.inactive:hover {
+opacity:0;
+}
+#projectx .slideshow_nav p{
+  padding-bottom: 0px;
+  margin-bottom: 0px
+}
+
+#projectx .slideshow_nav.inactive {
+  opacity:0;
+}
+
+#projectx .slideshow_box_container {
+  width:5000px;
+  height:200px;
+  overflow:hidden;
+  padding-left:0 !important;
+}
+#projectx .article_text .full_insert .slideshow .embed_box {
+  float: left;
+  width:300px;
+  margin:0px 6px;
+  height:200px;
+  background: #dedede;
+  padding-left:0;
+  margin-left:12px;
+  position:relative;
+}
+
+#projectx .article_text .full_insert .slideshow .embed_box.static_box {
+  cursor:pointer;
+}
+
+#projectx .embed_box.static_box .embed_player_icon {
+  background: url("http://propublica.s3.amazonaws.com/assets/ty/minimag-icon.png") center center no-repeat transparent;
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: 69%;
+  left: -8%;
+  z-index: 10;
+  opacity: .55;
+  cursor: pointer;
+  transition: all 0.10s ease-in-out;
+  -webkit-transition: all 0.10s ease-in-out;
+  -moz-transition: all 0.10s ease-in-out;
+  -o-transition: all 0.10s ease-in-out;
+}
+
+#projectx #slideshow_popup {
+  display:none;
+  position: fixed;
+  top: 70px;
+  background: #000;
+  z-index: 999;
+  overflow: visible;
+  padding: 15px;
+  margin-left: -80px;
+  box-shadow: 0 0 20px #444;
+}
+
+#projectx #slideshow_popup.img_popup {
+  width: 500px;
+  margin-left:30px;
+}
+
+#projectx #slideshow_popup #slideshow_popup_img {
+  margin-top:10px;
+}
+
+#projectx #slideshow_popup .popup_img_caption p {
+  color: #fff;
+  text-align: left;
+  margin-left: 0;
+  font-weight: 600;
+  width:100%;
+}
+
+#projectx #slideshow_close_box {
+  float: right;
+  background: #990000;
+  color: #fff;
+  padding: 8px;
+  text-transform: uppercase;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom:3px;
+  cursor:pointer;
+}
+
+#projectx .embed_container_overlay {
+  position: absolute;
+  background: white;
+  opacity: 0.35;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  top: 0;
+  cursor: pointer;
+  transition: all 0.10s ease-in-out;
+  -webkit-transition: all 0.10s ease-in-out;
+  -moz-transition: all 0.10s ease-in-out;
+  -o-transition: all 0.10s ease-in-out;
+}
+
+#projectx .article_text .full_insert .slideshow .embed_box:hover .embed_player_icon{
+  opacity: 1;
+}
+
+/*.article_text .full_insert .slideshow .embed_box:hover .embed_container_overlay {
+   opacity: 0;
+}*/
+
+#projectx .embed_player_icon {
+  background: url("http://propublica.s3.amazonaws.com/assets/ty/play-overlay.svg") center center no-repeat transparent;
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  z-index: 10;
+  opacity: .4;
+  cursor: pointer;
+  transition: all 0.10s ease-in-out;
+  -webkit-transition: all 0.10s ease-in-out;
+  -moz-transition: all 0.10s ease-in-out;
+  -o-transition: all 0.10s ease-in-out;
+}
+
+/*  END STYLES FOR SLIDESHOW */
+
+
+#projectx .further-reading {
+  margin: auto
+}
+
+
+ #projectx .barchart_mobile {
+    display: none;
+  }
+
+
+
+/* DRUGCHART GRAPHIC */
+
+#projectx #overdose-meter  {
+font-size: 12px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 20px 0px;
+}
+#projectx #overdose-meter .cursor_pt {
+background: url("http://propublica.s3.amazonaws.com/projects/projectx/cursor09.png") no-repeat top left;
+width: 22px;
+height: 22px;
+background-size: 20px;
+display: inline-block;
+padding: 0px;
+position: relative;
+top: 7px;
+}
+
+#projectx #overdose_chart {
+float: left;
+width: 620px;
+z-index: 1000;
+position: relative;
+
+}
+
+#projectx #overdose-meter .total .toxicdose {
+  padding-top: 20px;
+}
+
+#projectx #overdose-meter .toxicdose span {
+  display: none
+}
+
+
+#projectx #overdose_chart div {
+text-align: center;
+float: left;
+width: 100px;
+margin: 0px 10px 10px 0px;
+text-align: center;
+cursor: pointer;
+top: 0px;
+box-shadow: 1px 1px 1px 0px #ddd;
+position: relative;
+height: 100px;
+overflow: hidden;
+border-radius: 5px;
+padding-left:0px;
+}
+
+#projectx #overdose_chart div.selected .overlay {
+opacity: .8;
+}
+
+#projectx .projectx_story .insert_container#overdose-meter .interactive_only .total_box {
+top: 45%;
+}
+
+#projectx #overdose-meter .interactive_only .total_box {
+float: left;
+display: inline-block;
+width: 130px;
+text-align: center;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+z-index: 1000;
+position: absolute;
+}
+
+#projectx #overdose-meter .total_box .total {
+margin: 0px;
+padding: 0px;
+width: 100%;
+display: none;
+text-align: left;
+}
+
+#projectx #overdose-meter .interactive_only .total_box {
+  top: 25%;
+}
+
+#projectx #overdose-meter .total_box .total p {
+  line-height: 1.5em
+}
+
+
+#projectx #overdose-meter .total_box p {
+  margin:0px;
+  padding:0px;
+  width:100%;
+  text-align: left;
+  line-height: 1.4em
+}
+
+#projectx #overdose-meter .total_box .total p {
+  text-align: left;
+}
+#projectx #overdose-meter .total_box .total span {
+font-weight: 600;
+font-size: 32px;
+}
+
+#projectx #overdose_chart div.hover .overlay {
+opacity: .8;
+}
+
+#projectx #overdose_chart div.nohover .overlay{
+opacity: 0;
+}
+
+#projectx #overdose_chart div.selected .h4  {
+display: block;
+}
+
+#projectx #overdose_chart div.hover .h4 {
+display: block;
+}
+
+#projectx #overdose_chart div.nohover .h4{
+display: none;
+}
+
+#projectx #overdose-meter div .no_total {
+  padding-left:0px;
+  position: relative;
+left: -200px;
+    transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+-moz-transition: all 0.10s ease-in-out;
+-o-transition: all 0.10s ease-in-out;
+}
+
+
+
+
+#projectx #overdose_chart div:active {
+  top:1px;
+  position: relative;
+}
+
+#projectx #overdose_chart .h4 {
+font-family: Arial;
+font-size: 11px;
+text-transform: uppercase;
+margin-bottom: 0px;
+top: 40px;
+color: white;
+display: none;
+position: absolute;
+width: 100%;
+text-shadow: 1px 1px 7px #000;
+letter-spacing: 1px;
+font-weight: bold;
+}
+
+#projectx #overdose_chart .h4.three_line {
+top: 30px;
+}
+
+#projectx #overdose_chart img {
+  width: 100%;
+  margin:0px;
+}
+
+#projectx #overdose_chart p {
+  font-size: 11px;
+  text-align: left;
+}
+
+
+
+
+
+#projectx #overdose-meter #overdose_chart div p {
+  text-align: center;
+}
+
+
+
+#projectx #output {
+float: left;
+position: relative;
+height: 429px;
+width: 220px;
+padding-left: 0px;
+}
+#projectx #output .total{
+  display: none;
+}
+
+#projectx #output .total span{
+  font-weight: bold;
+  font-size: 16px
+}
+
+#projectx #output p {
+  float: right;
+width: 110px;
+clear: both;
+font-family: "Helvetica Neue", Helvetica, Arial;
+font-size: 13px;
+text-align: right;
+}
+
+#projectx #overdose-meter .total span.daily_max {
+  color: #d5b612
+}
+#projectx #overdose-meter .total span.double_max {
+  color: #d17828
+}
+#projectx #overdose-meter .total span.dead {
+  color: #c20803
+}
+
+
+#projectx #output .indv {
+  font-weight: normal;
+  position: absolute;
+  bottom: 0px;
+  font-size: 11px;
+}
+
+#projectx .article_text #overdose-meter div.tylenol-o-meter {
+  float: left;
+  display: block;
+  height: 430px;
+  width: 15px;
+  border-radius: 5px;
+  position: relative;
+  border-radius:5px;
+  border:1px solid #dedede;
+  overflow: hidden;
+  padding-left:0px;
+}
+
+#projectx #overdose-meter .tylenol-o-meter .quantity {
+  display: inline-block;
+  width: 100%;
+  background: #444;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 0px 0px 5px 5px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+
+#projectx #overdose-meter #output .indv div {
+position: relative;
+max-width: 220px;
+padding-left:5px;
+}
+
+#projectx #overdose-meter #output .indv div span.indv_name {
+font-weight: 600;
+top:-5px;
+position: relative;
+}
+
+#projectx #overdose-meter #output .indv div span.tick_mark {
+border-top: 1px solid white;
+width: 100%;
+left: -50px;
+
+position: absolute;
+}
+
+#projectx #overdose-meter #output .indv div span.indv_dose {
+color:#666;
+top:-5px;
+position: relative;
+}
+
+#projectx #overdose-meter #output .indv div span {
+  clear:both;
+}
+
+#projectx #overdose-meter .overlay {
+display: block;
+background: #444;
+opacity: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+-moz-box-shadow: inset 0 0 10px #000000;
+-webkit-box-shadow: inset 2px 2px 20px #000000;
+box-shadow: inset 2px 2px 20px #000000;
+}
+
+#projectx #overdose-meter .overdose_container {
+  display: block;
+  overflow: hidden;
+  padding-top:15px;
+  transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+-moz-transition: all 0.10s ease-in-out;
+-o-transition: all 0.10s ease-in-out;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+}
+
+
+
+
+/* TIMELAPSE GRAPHIC */
+
+
+
+#projectx #timelapse_graphic .element {
+  position: absolute;
+  right: 173px;
+}
+
+#projectx #timelapse_graphic >p {
+  margin-bottom: 20px;
+}
+#projectx #timelapse_graphic {
+width: 300px;
+text-align: center;
+z-index: 10;
+float: left;
+display: none;
+margin-top: 60px;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+font-size: 11px;
+padding-left: 30px;
+background: #fff;
+z-index: 0;
+}
+
+#timelapse_graphic div.label {
+font-size: 18px;
+font-weight: bold;
+color: #000;
+margin: 0px;
+padding: 20px 5px 0px 0px;
+width: 25px;
+position: relative;
+float: left;
+left: 125px;
+z-index: 20;
+top: 10px;
+}
+
+#projectx #timelapse_graphic h6 {
+font-weight: 200;
+font-size: 18px;
+-webkit-font-smoothing: antialiased;
+padding-bottom: 20px;
+line-height: 1.2em;
+}
+
+#projectx .right_insert h6 {
+  font-weight: 200;
+font-size: 18px;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+text-align: center
+}
+
+#projectx #timelapse_graphic .double_item div.label {
+  top:-30px;
+}
+
+#projectx #timelapse_graphic div.label p {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  z-index: 100;
+  margin-left: -10px;
+}
+
+#projectx #timelapse_graphic .deets {
+width: 150px;
+display: block;
+font-size: 11px;
+margin-left: 30px;
+float: left;
+position: relative;
+color:#000;
+}
+
+
+
+#projectx #timelapse_line {
+width:16px;
+z-index: 0;
+top:185px;
+border-radius: 5px;
+height: 100%;
+height: 0px;
+overflow: hidden;
+}
+
+#projectx #timelapse_line div {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+#projectx #timelapse_line div.phase_1 {
+  background:#FCF3A4;
+  height: 80px
+}
+#projectx #timelapse_line div.phase_1_2 {
+  height: 40px;
+background: #fcf3a4; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcf3a4 0%, #e0ac33 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf3a4), color-stop(100%,#e0ac33)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fcf3a4 0%,#e0ac33 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fcf3a4 0%,#e0ac33 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fcf3a4 0%,#e0ac33 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fcf3a4 0%,#e0ac33 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf3a4', endColorstr='#e0ac33',GradientType=0 ); /* IE6-9 */
+
+
+}
+#projectx #timelapse_line div.phase_2 {
+  background:#e0ac33;
+  height:180px;
+}
+
+#projectx #timelapse_line div.phase_3 {
+  background:#ce7002;
+  height:100px;
+}
+#projectx #timelapse_line div.phase_4 {
+  background:#a5300c;
+  height:200px;
+}
+
+#projectx .timelapse_item {
+color: #666;
+text-align: left;
+height: 90px;
+opacity: 0;
+padding-top: 10px;
+position: relative;
+clear: both;
+}
+
+#projectx .timelapse_item img {
+width: 80px;
+float: left;
+}
+
+#projectx #timelapse_graphic img.clock {
+  position: absolute;
+left: 17px;
+z-index: 1
+}
+
+/*.g-bracket {
+fill: none;
+stroke: #000;
+
+}*/
+
+#projectx #timelapse_graphic div.timeframe {
+position: absolute;
+float: left;
+z-index: 10;
+width: 45px;
+left: -15px;
+top: 40px;
+text-align: center;
+}
+
+#projectx #timelapse_graphic div.timeframe span {
+  font-size: 10px;
+}
+
+#projectx #timelapse_graphic .double_item div.timeframe {
+  top: -10px;
+}
+
+#projectx #timelapse_graphic .timeframe p {
+font-family: Arial;
+font-size: 11px;
+color: #444;
+line-height: 1.2em;
+text-transform: uppercase;
+
+}
+
+
+
+
+
+/* MAIN ARTICLE CSS */
+
+
+#projectx .article_body p.subsection {
+font-family: "ff-meta-serif-web-1","ff-meta-serif-web-2","Georgia",serif;
+margin-top: 40px;
+display: inline-block;
+font-size: 28px;
+width: 100%
+}
+
+
+ .content-right, .content-inset, .follow_author_twitter, #content h1.article-title.title-link, .byline-block, .sidebar-inject, #google-callout{
+display:none
+}
+
+.content-full {
+width: 100%;
+}
+.content-main  {
+width: 100%;
+}
+
+#content .wrapper {
+  overflow:visible;
+  min-width: 960px;
+}
+
+#content h1.article-title {
+font-size: 30px;
+font-family: Georgia, serif;
+font-weight: 200;
+padding-left:5px;
+}
+.article {
+min-height:600px;
+display: inline-block;
+width: 100%;
+}
+
+
+#projectx .article_body p{
+  font-family: Georgia;
+  line-height: 1.6em;
+  font-size: 17px;
+  color:#333;
+  margin-bottom: 15px;
+transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+-moz-transition: all 0.10s ease-in-out;
+-o-transition: all 0.10s ease-in-out;
+}
+
+#projectx .article_body {
+float: left;
+position: relative;
+width: 99%;
+margin: 10px;
+}
+
+#projectx .article_text {
+  margin: 0px auto 100px;
+  width: 640px;
+}
+
+/*.article_text.left_justified {
+  margin-left:0px;
+}
+*/
+#projectx .article_text a {
+  color:#637fa4;
+
+}
+
+#projectx .article_text .insert a.action {
+  color:white;
+  padding:10px;
+}
+
+#projectx .social_block {
+  text-align: center;
+}
+
+#projectx .social_block span{
+min-height: 80px;
+display: block;
+}
+
+#projectx .social_block div{
+  display: inline-block;
+}
+#projectx .projectx_story {
+
+  float: left;
+width: 100%;
+}
+
+
+#projectx.hutto .lead_image {
+  height: 540px;
+}
+
+#projectx .lead_image {
+width: 100%;
+margin:20px 0px 0px;
+position: relative;
+height: 535px;
+overflow: hidden;
+}
+
+#projectx .lead_text {
+position: absolute;
+bottom: 15%;
+left: 10%;
+-webkit-text-stroke: 1px transparent;
+-webkit-font-smoothing: antialiased;
+}
+
+#projectx .lead_text.behind-the-numbers p{
+  text-shadow: 10px 2px 20px #000;
+}
+
+#projectx.only_as_directed .lead_text p:last-child {
+  padding-left: 70px;
+}
+
+#projectx.hutto .lead_text {
+  bottom: 65%;
+}
+
+#projectx .lead_text p {
+font-size: 80px;
+opacity: .9;
+font-weight: normal;
+color: #fff;
+text-shadow: 2px 2px 17px #443122;
+font-family: "ff-meta-serif-web-1","ff-meta-serif-web-2","Georgia",serif;
+line-height: 1em;
+}
+
+#projectx .lead_text span {
+font-size: 20px;
+color: #fff;
+padding: 5px 5px 20px;
+display: inline-block;
+opacity: .8;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+font-weight: 400;
+
+}
+
+
+
+#projectx h3{
+font-family: "ff-meta-serif-web-1","ff-meta-serif-web-2","Georgia",serif;
+font-weight: normal;
+font-size: 24px;
+margin-bottom: 0px;
+line-height: 1.5em;
+-webkit-font-smoothing: antialiased;
+}
+
+#projectx h4{
+font-family: Arial;
+font-size: 11px;
+text-transform: uppercase;
+color: white;
+background: #b64926;
+padding: 6px 8px;
+display: inline-block;
+border-radius: 3px;
+font-weight: normal;
+letter-spacing: 1px;
+}
+
+#projectx h6 {
+  font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+  font-weight: normal;
+  line-height: 18px;
+  font-size: 13px;
+  margin-bottom: 0px;
+  font-style: normal;
+}
+
+#projectx .byline {
+  font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+  display: block;
+    font-weight: normal;
+  margin-bottom: 0px;
+  font-style: italic;
+  padding-bottom: 6px
+}
+
+#projectx .authors .byline:first-child {
+  font-size: 14px
+}
+
+#projectx .authors .byline:last-child {
+  font-size: 12px
+}
+
+
+
+
+#series_bar.fixed .series_bar_social {
+  display: block;
+}
+
+.series_bar_social {
+  cursor: pointer;
+}
+
+.series_bar_social p {
+  margin-bottom: 0px
+}
+
+#nav li .series_bar_social span.ss-icon a {
+padding: 3px 8px 0px;
+color: #999;
+font-size: 11px;
+}
+
+#nav li .series_bar_social span.ss-icon {
+  font-size: 11px;
+  color: #999;
+}
+#nav li .series_bar_social span.ss-icon:hover, #nav li .series_bar_social span.ss-icon:hover a {
+  color:black
+}
+
+
+#series_bar {
+display: inline-block;
+width: 100%;
+z-index: 1;
+left: 0px;
+position: absolute;
+top: -2px;
+height: 50px;
+background: #fff;
+}
+
+#series_bar.fixed {
+  background: #fff;
+  position: fixed;
+  padding-left: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  display: inline-block;
+  left: 0px;
+  height: 43px
+}
+
+#series_bar.fixed #nav > li:first-child {
+font-size: 18px;
+line-height: 1.6em;
+background: url("http://propublica.s3.amazonaws.com/projects/projectx/logo-mini.png") no-repeat;
+padding: 10px 10px 5px 90px;
+background-position-y: -4px;
+
+}
+
+#projectx .authors {
+  padding: 0px 0px 40px 0px;
+}
+
+#projectx .right_column {
+  float: left;
+}
+
+
+/*
+.left_rail {
+width: 150px;
+float: left;
+min-height: 1px;
+position: relative;
+}*/
+
+#projectx .right_rail {
+width: 300px;
+float: right;
+border:0px;
+}
+
+#projectx .right_rail a {
+color:#444;
+}
+
+#projectx .insert_container .video p, .insert_container.double_photo p {
+  float: left;
+  width: 85%;
+  display: block;
+}
+
+
+#projectx .video {
+  cursor: pointer;
+}
+
+#projectx .video:hover .video_player_icon{
+   opacity: 1;
+}
+
+#projectx .video_player_icon {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    width:100px;
+    height: 100px;
+    opacity: .5;
+    transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+-moz-transition: all 0.10s ease-in-out;
+-o-transition: all 0.10s ease-in-out;
+}
+
+#projectx.hutto .lead_image .video_player_icon {
+  bottom: 130px;
+  left: 10%;
+}
+#projectx .video_player_icon.white {
+  background: transparent url("http://propublica.s3.amazonaws.com/assets/ty/play-overlay-white.svg") center center no-repeat;
+}
+
+#projectx .video_player_icon.black {
+  background: transparent url("http://propublica.s3.amazonaws.com/assets/ty/play-overlay.svg") center center no-repeat;
+}
+
+#projectx .social_block {
+float: left;
+width: 23%;
+padding: 10px 47px;
+}
+
+#projectx #social_callout .insert h1 {
+  text-align: center;
+  margin-bottom: 20px
+}
+
+#projectx .projectx_story .social_section {
+text-align: right;
+padding-top:10px;
+cursor: pointer;
+}
+
+#projectx .projectx_story .social_section span.permalink {
+  padding-left:0px;
+  color: #85adcc;
+}
+/*.projectx_story .social_section .permalink img {
+  width: 20px;
+  vertical-align: top;
+  opacity: .55;
+}*/
+#projectx .projectx_story .social_section span, #projectx .projectx_story .social_section span a {
+  font-size: 14px;
+  color: #85adcc;
+  padding-left: 3px;
+}
+
+
+#projectx .projectx_story .social_section p {
+font-family: arial;
+font-size: 10px;
+text-transform: uppercase;
+margin-top: 5px;
+}
+
+/*.projectx_story .social_section span.permalink:hover img{
+opacity: 1;
+}*/
+
+#projectx .projectx_story .social_section span:hover, #projectx .projectx_story .social_section span:hover a {
+  color:#5D7B9B;
+}
+
+#projectx .graphic .social_section span {
+  font-size: 12px;
+}
+
+#projectx .ss-icon a {
+  color:#999;
+}
+
+#projectx .ss-icon a:hover {
+  text-decoration: none;
+}
+
+#projectx .insert_container {
+  padding-top:40px;
+}
+
+#projectx .insert_container.right_insert {
+  float: right;
+  clear: right;
+  margin: -30px -160px 15px 35px;
+}
+
+#projectx .insert_container .quote, .insert_container .reaction, .insert_container .takeaway {
+  width: 240px;
+}
+
+#projectx .insert_container.double_photo .photo {
+  float: left;
+  width:470px;
+  padding-bottom: 5px
+}
+
+#projectx .insert_container .photo {
+  width: 450px
+}
+
+#projectx .insert_container.double_photo .photo:first-child {
+  margin-right:20px;
+}
+
+#projectx .insert_container.double_photo {
+  display: inline-block;
+}
+
+#projectx .insert_container .photo img {
+  width: 100%
+}
+
+#projectx .insert_container .insert {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding: 20px 0px;
+}
+
+#projectx .insert_container .insert.reaction {
+  padding-bottom: 25px;
+  display: inline-block;
+}
+
+#projectx .insert_container.right_insert .graphic {
+  width: 450px;
+  text-align: center;
+}
+
+#projectx .right_insert .quote .headshot {
+float: left;
+padding: 5px 20px 0px 2px;
+}
+
+#projectx .right_insert .quote h5 {
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+font-size: 24px;
+font-weight: 100;
+padding-top: 0px;
+line-height: 1.5em;
+color: #666;
+-webkit-font-smoothing: antialiased;
+}
+
+#projectx .right_insert .quote p {
+  font-weight: 600;
+}
+
+#projectx .right_insert .reaction h6 {
+font-weight: 700;
+text-align: left;
+font-size: 14px;
+color: #333;
+line-height: 1.5em;
+}
+
+#projectx .right_insert .reaction .comments_link {
+float: right;
+padding-top:10px;
+}
+
+
+/*#projectx .left_justified .right_insert {
+  margin: -40px -320px 10px 25px;
+}*/
+
+/*.left_insert {
+  clear: left;
+  float: left;
+  margin: 15px 25px 10px -160px;
+  width: 450px
+}*/
+
+#projectx .insert_container p {
+font-size: 13px;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+padding: 5px 0px 0px 0px;
+width: 100%;
+margin: 0px;
+border: 0px;
+-webkit-font-smoothing: antialiased;
+}
+
+#projectx .full_insert {
+  position: relative;
+  width: 960px;
+  left: -160px;
+  margin:0px 0px 25px 0px;
+  background: #fff;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+  z-index: 0
+}
+
+#projectx .full_insert img {
+  width: 100%
+}
+
+#projectx .full_insert .social_callout img {
+  width:420px;
+}
+
+#projectx .full_insert .social_callout span {
+ float: left;
+ width:50%;
+}
+
+#projectx #slideshow_popup_img .popup_img_inner img {
+  width:inherit;
+}
+
+#projectx #slideshow_popup_img .popup_img_inner {
+  overflow: scroll;
+}
+
+#projectx .full_insert .insert {
+width: 100%;
+display: inline-block;
+}
+
+#content #projectx .graphic h1, #content #projectx #hutto-promo h1 {
+text-align: center;
+margin-bottom: 10px;
+font-weight: 600;
+font-size:24px;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+padding-left:0px;
+}
+
+#content #projectx #hutto-promo h1 {
+text-align: left;
+}
+#content #projectx #hutto-promo h1 a{
+color:black;
+}
+
+#content #projectx .full_insert h1 {
+  font-weight: 600;
+font-size:24px;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+padding-left:0px;
+}
+
+#projectx #content .comment_section h1 {
+float: left;
+}
+
+#projectx #safe-use-guide p a {
+  font-size: 12px;
+  font-weight: bold
+}
+
+
+#projectx .article_body .graphic p {
+font-size: 13px;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+width: 68.5%;
+text-align: center;
+margin: auto;
+margin-bottom: 20px;
+
+}
+
+#projectx .right_insert .graphic p {
+  width: 90%;
+  text-align: left;
+}
+
+
+#projectx #accidental-deaths .accidental_deaths {
+  background: url("http://propublica.s3.amazonaws.com/projects/projectx/accidental_deaths_chart.png") no-repeat top left;
+width: 550px;
+height: 310px;
+}
+
+#projectx #accidental-deaths div div{
+  float: left;
+}
+
+#projectx #accidental-deaths div div.big_num {
+  width: 400px;
+    text-align: center;
+  line-height: 1.7em
+}
+
+#projectx #accidental-deaths div div.big_num span {
+width: 210px;
+display: block;
+margin: auto;
+text-align: left;
+}
+
+
+
+#projectx .article_body #accidental-deaths .graphic div.big_num p {
+font-size: 80px;
+width: 100%;
+font-weight: 600;
+margin-bottom: 0px;
+line-height: 1.3em;
+margin-top: 40px;
+}
+
+
+
+#projectx #poisoning-graphic-static.right_insert  {
+  display: none !important;
+  text-align: center;
+}
+
+#content #projectx .right_insert.graphic h1 {
+  font-weight: 100;
+font-size: 18px;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+text-align: left;
+padding-left:0px;
+}
+
+#projectx .lead_mobile_image {
+  display: none
+}
+
+/*#projectx video {
+  display: block;
+}
+
+
+
+*/
+
+#projectx .series_video img {
+  float: left;
+}
+
+
+#projectx .article_text .weighin {
+padding: 4px 6px;
+margin-top: 0px;
+display: inline-block;
+border-radius: 3px;
+border: 1px solid #dedede;
+font-size: 10px;
+font-family: Arial;
+text-transform: uppercase;
+cursor: pointer;
+transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+-moz-transition: all 0.10s ease-in-out;
+-o-transition: all 0.10s ease-in-out;
+float: left;
+}
+
+#projectx .rightarrow {
+background: url("http://propublica.s3.amazonaws.com/projects/projectx/rightarrow.png") no-repeat top left;
+background-size: 12px;
+float: left;
+display: inline-block;
+width: 20px;
+height: 20px;
+background-position: 5px;
+margin-left: 5px;
+opacity: .2;
+}
+
+#projectx .weighin.rightarrow:hover {
+  background: url("http://propublica.s3.amazonaws.com/projects/projectx/rightarrow.png") no-repeat top left #dedede;
+  padding-left: 20px;
+  background-size: 12px;
+  background-position: 5px 3px;
+}
+
+#projectx .weighin:hover {
+  background: #dedede;
+  color: white
+}
+
+/* END MOBILE CSS */
+
+
+/*  countup CLOCK GRAPHIC */
+
+#projectx #ty_countup_tbl tr td {
+  text-align:center;
+  vertical-align:center;
+  padding:0 5px 0 5px;
+  margin:0px;
+  width: 25px
+}
+
+
+#projectx #ty_countup_tbl tr.ty_countup_digits td {
+  font-size:30px;
+  font-weight:bold;
+  width: 40px
+}
+
+#projectx #ty_countup_tbl tr.ty_countup_labels td {
+  font-size:11px;
+  font-weight:normal;
+  text-transform:uppercase;
+  width: 40px
+}
+
+#projectx .article_text div#ty_countup {
+  display: inline-block;
+  padding-top: 10px
+}
+
+
+#projectx #ty_countup table {
+    border:1px solid #fff;
+    border-collapse:collapse;
+}
+#projectx #ty_countup td {
+    border:none;
+    font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+}
+
+
+
+/* ANNOTATIONS STYLE */
+
+#projectx .annotated.dc_annotated, .annotation.document {
+  background: url("http://propublica.s3.amazonaws.com/projects/projectx/doc_icon.png") no-repeat top left #f1eee6;
+  padding-left: 22px;
+  background-size: 13px;
+  background-position: 5px 5px;
+}
+#projectx .annotated.dc_annotated:hover, .annotation.document:hover {
+  background: url("http://propublica.s3.amazonaws.com/projects/projectx/doc_icon_hover.png") no-repeat top left #e3e0da;
+  padding-left: 22px;
+  background-size: 13px;
+  background-position: 5px 5px;
+}
+
+#projectx .annotation.sound {
+  background: url("http://propublica.s3.amazonaws.com/projects/projectx/sound_icon.png") no-repeat top left #f1eee6;
+  padding-left: 24px;
+  background-size: 13px;
+  background-position: 5px 5px;
+}
+#projectx .annotation.sound:hover {
+  background: url("http://propublica.s3.amazonaws.com/projects/projectx/sound_icon_hover.png") no-repeat top left #e3e0da;
+  padding-left: 24px;
+  background-size: 13px;
+  background-position: 5px 5px;
+}
+
+#projectx .annotation.tweet {
+  background: url("http://propublica.s3.amazonaws.com/projects/projectx/tweet_icon.png") no-repeat top left #e8eef1;
+  padding-left: 24px;
+  background-size: 13px;
+  background-position: 5px 4px;
+}
+#projectx .annotation.tweet:hover {
+  background: url("http://propublica.s3.amazonaws.com/projects/projectx/tweet_icon_hover.png") no-repeat top left #d7dee1;
+  padding-left: 24px;
+  background-size: 13px;
+  background-position: 5px 4px;
+}
+
+#projectx #major-takeaways .annotation.tweet {
+background-position: 6px 1px;
+}
+
+#projectx #major-takeaways .annotation.tweet:hover {
+background-position: 6px 1px;
+}
+
+#projectx .annotation.tweet a:hover {
+  text-decoration: none;
+}
+#projectx .annotation.tweet a {
+  color: #395274;
+}
+
+#projectx .soundcite {
+    transition: all 0.10s ease-in-out;
+  -webkit-transition: all 0.10s ease-in-out;
+  -moz-transition: all 0.10s ease-in-out;
+  -o-transition: all 0.10s ease-in-out;
+}
+#projectx .annotation, .annotated {
+  background: #cecbc3 ;
+  border-radius: 3px;
+  padding: 0px 3px;
+  transition: all 0.10s ease-in-out;
+  -webkit-transition: all 0.10s ease-in-out;
+  -moz-transition: all 0.10s ease-in-out;
+  -o-transition: all 0.10s ease-in-out;
+  cursor:pointer;
+}
+#projectx .series_video h6 {
+  float: left;
+  display:inline-block;
+}
+
+
+#projectx #overdose-meter-static {
+  display: none;
+}
+
+
+#projectx #overdose-meter #overdose_chart div p {
+  display: none
+}
+
+/* MOBILE CSS */
+
+
+/* Nexus 7 */
+@media screen and (-webkit-min-device-pixel-ratio: 1.1) and (width: 601px) {
+  html { zoom: 77.96954%; }
+}
+/* Samsung Galaxy */
+/* @media screen and (device-width: 800px) { html { zoom: 81.21827%; } } */
+/* Kindle Fire */
+@media screen and (device-width: 600px) { html { zoom: 77.96954%; } }
+
+@media screen and (max-width: 1120px) {
+  #series_bar.fixed .media_gone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+
+  #series_bar #nav > li:first-child {
+    font-size: 20px;
+  }
+
+  #series_bar #nav li {
+    padding:10px;
+    line-height: 22px
+  }
+
+  #series_bar #nav ul li {
+    line-height: 15px
+  }
+
+  #series_bar #nav li ul li {
+    padding:10px 6px 10px 6px;
+  }
+
+  #series_bar #nav li.tal {
+    padding:6px 10px;
+  }
+
+  #series_bar.fixed {
+    display: none
+  }
+
+.video iframe {
+  min-height: 350px;
+}
+
+#slideshow_popup iframe {
+  min-height: 480px;
+  max-width: 100% !important;
+}
+
+ #slideshow_popup.img_popup{
+  width: 75%;
+  margin-left: 0px
+ }
+
+ #slideshow_popup.img_popup img {
+  width: 100%
+ }
+
+}
+
+  #projectx .insert_container .photo.fda_psa {
+    width: 294px
+  }
+
+
+@media screen and (max-width: 800px) and (min-width: 481px) {
+
+html body #content .article #comment_box {
+  width: 90%;
+  margin: auto;
+}
+
+#projectx .insert_container.right_insert {
+  padding-top:10px;
+}
+
+  #series_bar #nav > li:last-child {
+    display: none !important
+  }
+
+   #projectx .lead_mobile_image {
+    display: block;
+
+  }
+  html body #content .article #projectx .lead_image img {
+     width: 1000px;
+     max-width: 1000px !important;
+  }
+
+
+ #projectx .slideshow_nav span.slideshow_prev {
+top: 22%;
+left: -40px;
+z-index: 1
+}
+
+#projectx .slideshow_nav span.slideshow_next {
+top: 22%;
+right: -40px;
+z-index: 1
+}
+
+
+#projectx .lead_mobile_image {
+display: none;
+}
+
+  #projectx .social_block {
+    width:80%;
+    margin: auto;
+  }
+
+  #projectx .social_block span p {
+    text-align: right;
+  }
+
+  #nav li ul li {
+    width:210px;
+  }
+
+  #series_bar li.media_gone {
+    display: none;
+  }
+
+  html body #content .content-main .article-full .article-deck {
+    display: none !important
+}
+
+ #projectx #accidental-deaths div div.big_num {
+    width: 40%;
+float: left;
+  }
+
+
+#projectx .article_body #accidental-deaths .graphic div.big_num p {
+  font-size: 60px;
+font-weight: 600;
+margin-bottom: 0px;
+line-height: 1.3em;
+margin-top: 10px;
+}
+
+#projectx #accidental-deaths div div.big_num span {
+  margin:0px;
+}
+
+  #projectx #accidental-deaths .graphic .accidental_deaths {
+width: 60%;
+height: 270px;
+background-size: 100%;
+float: left;
+}
+
+#projectx .insert_caption {
+  text-align: left;
+  padding-top:0px;
+}
+
+ #projectx  .insert_container .photo.fda_psa, .insert_container.right_insert .photo.fda_psa {
+    margin-left:25px;
+    width: 294px
+  }
+
+
+#projectx .article_body #major-takeaways.right_insert .graphic p {
+  text-align: left;
+}
+
+
+#projectx .full_insert .insert .overdose_container {
+  max-width: 615px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+
+html body #content .article #projectx .iframe_graphic iframe, html body #content .article iframe {
+  max-width: 100% !important
+}
+
+#projectx #accidental-deaths div div {
+  float: none;
+margin: 0px auto;
+}
+
+#projectx .article_text div#ty_countup {
+  width: 100%;
+text-align: center;
+}
+
+html body #content .article #projectx table  {
+  margin:20px 0px 20px !important;
+}
+html body #content .article #projectx table td {
+  word-wrap: normal !important;
+  width:120px !important;
+  padding:0px 30px 0px 30px !important;
+}
+
+html body #content .article #projectx table#ty_countup_tbl tr.ty_countup_labels td {
+width:150px !important;
+}
+
+  html body #content .article #projectx #ty_countup table#ty_countup_tbl {
+  width: 100% !important
+  }
+
+  html body #content .article #projectx #ty_countup table#ty_countup_tbl tr td {
+    width: 40px !important;
+  }
+
+  #projectx .social_block div {
+    float: left;
+    padding-top: 10px;
+  }
+
+  #projectx .social_block span {
+  float: left;
+  width: 68%;
+  min-height: 0px;
+  text-align: right;
+margin-right: 20px;
+}
+  html body #page .wrapper, html body #content-header .wrapper, html body #content .wrapper, html body .wrapper {
+    width: 100% !important;
+max-width: 100% !important;
+min-width: 100% !important;
+  }
+html body #content .article img {
+  max-width: 100% !important
+}
+  html body #content .wrapper .content-main {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  html body #page, html body #content-header, html body #content {
+    min-width: 100% !important;
+  }
+
+
+ #projectx .barchart_big {
+    display: none
+  }
+
+  #projectx .barchart_mobile {
+    display: block;
+  }
+
+  #projectx  .barchart_photo .main_guff {
+    position: static;
+    padding-bottom: 40px;
+    display: inline-block;
+    width:100% !important;
+    text-align: center;
+  }
+
+  #projectx .full_insert .insert {
+    text-align: center;
+  }
+
+ #projectx .full_insert {
+    width: 100%;
+    left: 0px;
+    display: inline-block;
+  }
+
+  #projectx  #timelapse_graphic {
+    display: none !important;
+  }
+
+
+  #projectx #poisoning-graphic-static.right_insert {
+    display: block !important;
+  }
+
+/* OVERDOSE METER IPAD STATIC VERSION  */
+
+  #projectx #overdose-meter {
+    margin: 10px 0px 20px;
+  }
+
+ #projectx #overdose-meter #overdose_chart {
+  width:100%;
+  float:none;
+  text-align:center;
+}
+
+#projectx #overdose-meter #overdose_chart div {
+  overflow: visible;
+  box-shadow: 0px 0px 0px;
+  height: 145px;
+  border-radius: 0px;
+  cursor: default;
+  pointer-events:none;
+}
+
+#projectx #overdose_chart .h4, #overdose_chart div.selected .h4 {
+  display: none
+}
+ #projectx #overdose-meter .overlay {
+    background: transparent !important;
+    -moz-box-shadow: inset 0 0 0px #fff;
+    -webkit-box-shadow: inset 0px 0px 0px #000000;
+    box-shadow: inset 0px 0px 0px #000000;
+  }
+
+ #projectx #overdose-meter .interactive_only, #overdose_chart div.hover .h4{
+    display: none !important;
+  }
+
+ #projectx #overdose-meter #overdose_chart div p {
+    display: block;
+  }
+
+ #projectx #overdose-meter #overdose_chart {
+    padding-left: 50px;
+    width: 90%;
+    pointer-events: none;
+  }
+
+
+
+ #projectx .article_text .narrower_text, #poisoning-graphic-static {
+    width: 100%
+  }
+
+
+ #projectx #countup-clock.insert_container.right_insert .graphic {
+    text-align: left;
+  }
+
+ #projectx .iframe_graphic {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 665px;
+  }
+ #projectx #content .wrapper, #content, #content-full {
+    width: 100%;
+    min-width: 100%;
+  }
+
+ #projectx .article_text,  #projectx .article_text.left_justified {
+    margin: 10px auto;
+    width: 80%;
+  }
+ #projectx .article_body .graphic p {
+    width: 100%;
+    text-align: center;
+  }
+
+
+ #series_bar.fixed {
+    display: none;
+    width: 768px
+  }
+
+  .series_bar_social {
+    margin-right: 10px
+  }
+
+  #projectx .insert_container.right_insert, #projectx .article_text .narrower_text .insert_container.right_insert{
+    margin:0px auto 30px auto;
+  }
+
+  #projectx #countup-clock.insert_container.right_insert {
+    width: 100%
+  }
+
+ #projectx .insert_container .quote, #projectx .insert_container .reaction, #projectx aside.ad, #projectx .insert_container.right_insert .module-donate, #projectx .insert_container .takeaway {
+    margin-left:25px;
+  }
+ #projectx .insert_container.right_insert .graphic, #projectx .insert_container.right_insert .photo, #projectx .insert_container.double_photo .photo{
+    width: 100%;
+    text-align: center;
+  }
+
+
+ #projectx .lead_text p {
+    font-size: 65px;
+  }
+
+
+  #series_bar .series_bar_section {
+    padding:10px;
+    margin: 0px;
+  }
+
+
+
+}
+
+
+@media print {
+  #projectx .no_print {
+       display:none;
+    }
+  }
+
+
+
+@media screen and (max-width: 480px) {
+
+
+  #projectx .full_insert .insert .overdose_container {
+  max-width: 615px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+  #projectx #overdose-meter {
+    margin: 10px 0px 20px;
+  }
+
+ #projectx #overdose-meter #overdose_chart {
+  width:100%;
+  float:none;
+  text-align:center;
+}
+
+#projectx #overdose-meter #overdose_chart div {
+  overflow: visible;
+  box-shadow: 0px 0px 0px;
+  height: 145px;
+  border-radius: 0px;
+  cursor: default;
+  pointer-events:none;
+}
+
+#projectx #overdose_chart .h4, #overdose_chart div.selected .h4 {
+  display: none
+}
+ #projectx #overdose-meter .overlay {
+    background: transparent !important;
+    -moz-box-shadow: inset 0 0 0px #fff;
+    -webkit-box-shadow: inset 0px 0px 0px #000000;
+    box-shadow: inset 0px 0px 0px #000000;
+  }
+
+ #projectx #overdose-meter .interactive_only, #overdose_chart div.hover .h4{
+    display: none !important;
+  }
+
+ #projectx #overdose-meter #overdose_chart div p {
+    display: block;
+  }
+
+
+
+
+
+
+  #projectx .annotated.dc_annotated:hover, .annotation.document:hover {
+    background: #fff;
+    padding:0px;
+  }
+
+  #projectx .annotated.dc_annotated, .annotation.document {
+    background: #fff;
+    padding:0px;
+  }
+
+  #projectx .right_insert .reaction h6 {
+    text-align: center;
+  }
+
+  #projectx .projectx_story .social_section {
+    text-align: center;
+  }
+
+#projectx .projectx_story #history-of-advertising .social_section {
+position: relative;
+top: -10px;
+}
+
+
+    #nav li {
+    border-right: 0px !important;
+  }
+
+  @-webkit-keyframes move {
+    from {
+      transform: translateY(-30px);
+      -ms-transform: translateY(-30px); /* IE 9 */
+      -webkit-transform: translateY(-30px); /* Safari and Chrome */
+      -o-transform: translateY(-30px); /* Opera */
+      -moz-transform: translateY(-30px); /* Firefox */
+    }
+
+    to {
+      transform: translateY(0px);
+      -ms-transform: translateY(0px); /* IE 9 */
+      -webkit-transform: translateY(0px); /* Safari and Chrome */
+      -o-transform: translateY(0px); /* Opera */
+      -moz-transform: translateY(0px); /* Firefox */
+    }
+  }
+
+    @-moz-keyframes move {
+    from {
+      transform: translateY(-30px);
+      -ms-transform: translateY(-30px); /* IE 9 */
+      -webkit-transform: translateY(-30px); /* Safari and Chrome */
+      -o-transform: translateY(-30px); /* Opera */
+      -moz-transform: translateY(-30px); /* Firefox */
+    }
+
+    to {
+      transform: translateY(0px);
+      -ms-transform: translateY(0px); /* IE 9 */
+      -webkit-transform: translateY(0px); /* Safari and Chrome */
+      -o-transform: translateY(0px); /* Opera */
+      -moz-transform: translateY(0px); /* Firefox */
+    }
+  }
+
+    @-o-keyframes move {
+    from {
+      transform: translateY(-30px);
+      -ms-transform: translateY(-30px); /* IE 9 */
+      -webkit-transform: translateY(-30px); /* Safari and Chrome */
+      -o-transform: translateY(-30px); /* Opera */
+      -moz-transform: translateY(-30px); /* Firefox */
+    }
+
+    to {
+      transform: translateY(0px);
+      -ms-transform: translateY(0px); /* IE 9 */
+      -webkit-transform: translateY(0px); /* Safari and Chrome */
+      -o-transform: translateY(0px); /* Opera */
+      -moz-transform: translateY(0px); /* Firefox */
+    }
+  }
+
+    @keyframes move {
+    from {
+      transform: translateY(-30px);
+      -ms-transform: translateY(-30px); /* IE 9 */
+      -webkit-transform: translateY(-30px); /* Safari and Chrome */
+      -o-transform: translateY(-30px); /* Opera */
+      -moz-transform: translateY(-30px); /* Firefox */
+    }
+
+    to {
+      transform: translateY(0px);
+      -ms-transform: translateY(0px); /* IE 9 */
+      -webkit-transform: translateY(0px); /* Safari and Chrome */
+      -o-transform: translateY(0px); /* Opera */
+      -moz-transform: translateY(0px); /* Firefox */
+    }
+  }
+
+ #projectx.only_as_directed .lead_text p:last-child {
+  padding-left: 0px;
+}
+
+
+ #projectx .insert_caption {
+    padding: 20px 0px 0px 40px;
+  }
+
+ #projectx .slideshow_nav span.slideshow_prev {
+top: 88%;
+left: 70px;
+z-index: 1
+}
+
+#projectx .slideshow_nav span.slideshow_next {
+top: 88%;
+right: 70px;
+z-index: 1
+}
+
+
+ #projectx #ty_countup_tbl tr.ty_countup_digits td {
+    font-size: 24px;
+  }
+
+  html body #content .content-main .article-full .article-deck {
+    display: none !important
+  }
+
+  #projectx .ss-social {
+    display: none
+  }
+
+
+#projectx  #accidental-deaths .graphic .accidental_deaths {
+width: 100%;
+height: 180px;
+background-size: 100%;
+}
+
+#projectx #accidental-deaths div div.big_num {
+  width: 100%
+}
+
+#projectx .article_body #accidental-deaths .graphic div.big_num p {
+  margin-top:10px;
+}
+
+/*#projectx #major-takeaways p span {
+  width: 100%;
+  display: block;
+}*/
+
+#projectx .insert_container .social_block {
+  width: 100%;
+  padding:0px;
+}
+
+#projectx .video iframe {
+  min-height: 250px;
+}
+
+#projectx #slideshow_popup iframe {
+  min-height: 280px !important;
+  max-width: 100% !important;
+}
+
+#projectx #slideshow_popup.img_popup {
+  width: 300px;
+  margin-left: 0px
+ }
+
+
+
+#projectx .social_block span{
+  min-height: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+   #projectx .article_text .narrower_text, #poisoning-graphic-static {
+    width: 100%
+  }
+
+  #projectx  #timelapse_graphic {
+    display: none !important;
+  }
+
+ #projectx #poisoning-graphic-static.right_insert {
+    display: block !important;
+  }
+
+ #projectx #overdose-meter {
+    display: block;
+    margin: 10px 0px 20px;
+  }
+
+ #projectx #overdose-meter #overdose_chart {
+    padding-left: 20px;
+    width: 90%;
+    pointer-events: none;
+  }
+#projectx #overdose_chart div {
+  margin:0px 30px 10px 0px;
+}
+
+  #projectx  .barchart_big {
+    display: none
+  }
+
+ #projectx .barchart_mobile {
+    display: block;
+  }
+
+   #projectx .barchart_photo .main_guff {
+    position: static;
+    padding-bottom: 40px;
+    display: inline-block;
+    width:100% !important;
+    text-align: center;
+  }
+
+
+  #series_bar li.media_gone {
+    display: none;
+  }
+/* #projectx .lead_mobile_image {
+    display: block;
+  }*/
+
+
+
+
+  #nav > li:first-child, #nav li.more_tab, .series_bar_social, li.media-gone, video, #series_bar .full_version, #series_bar.fixed {
+  display: none
+  }
+
+ #projectx .narrower_text {
+    width: 100% !important;
+  }
+
+ #projectx .insert_container {
+    padding:10px 0px;
+  }
+
+ #projectx .article_body .graphic p {
+    width: 100%
+  }
+
+  #projectx .insert_container .video {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding: 20px 0px;
+    display: inline-block;
+  }
+
+ #projectx .insert_container.right_insert, .narrower_text .insert_container.right_insert {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin: 0px !important;
+
+  }
+
+ #projectx .insert_container .photo {
+  width: 100%
+}
+ #projectx .insert_container.right_insert .graphic {
+width: 100%;
+text-align: center;
+}
+
+  #projectx .right_insert .quote, .right_insert .takeaway {
+    width:100%;
+    text-align: center;
+    margin-left:0px;
+  }
+
+ #projectx .right_insert .quote .headshot {
+    padding:5px;
+    float: none;
+  }
+
+ #projectx .article_body p {
+    padding:5px 0px;
+    margin:0px;
+  }
+
+#projectx .insert_container .video p {
+  width: 100%;
+  text-align: center;
+}
+
+#projectx .article_text div.right_insert .reaction, #projectx .article_text div.right_insert .reaction p {
+  text-align: center;
+}
+
+#projectx .article_text .insert.reaction a.action {
+  float: none;
+}
+
+ #projectx .article_text div.right_insert .quote.countup, .article_text div.right_insert .reaction,  .right_insert .graphic.timelapse_static {
+    width: 100%;
+    margin:10px 0px;
+    display: inline-block;
+    padding:10px 0px;
+  }
+
+
+  #projectx #timelapse_graphic {
+    display: none !important
+  }
+
+ #projectx #ty_countup_tbl tr.ty_countup_labels td {
+    font-size: 9px !important;
+    padding:0px;
+  }
+
+ #projectx .article_text, .article_text.left_justified {
+    margin:0px 5px;
+    width:290px;
+  }
+
+ #projectx .article_body {
+    margin:10px 0px 10px 0px;
+  }
+
+
+  #projectx .right_insert .social_section, .full_insert .social_section{
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+  }
+
+ #projectx .full_insert .slideshow .embed_box {
+    width: 26%
+  }
+ #projectx .full_insert {
+    left: 0px;
+    width:100%;
+    margin-bottom:0px;
+    padding-top: 10px
+  }
+
+ #projectx .article_text h1, .article_text div {
+    padding-left: 0px
+  }
+
+#nav {
+  background: #fff;
+  width: 100%;
+}
+#series_bar #nav li {
+  padding:10px 5px 10px 5px;
+ line-height: 15px;
+ width:80px;
+}
+
+#nav img.logo {
+padding: 5px 0px 0px 0px;
+width: 80px;
+}
+
+#series_bar #nav li.tal {
+  width: 105px;
+  padding: 10px 5px !important;
+}
+
+  .top_nav_fixie {
+    position: relative;
+    top:0px;
+  }
+
+#series_bar {
+  height: 0px;
+  position: relative;
+  display: block;
+}
+  #series_bar .title {
+    display: none
+  }
+#projectx .right_insert .graphic p {
+  text-align: center;
+}
+
+
+  #content h1, #content p, #content h2, #content h3, #content h4, #content h5, #content span {
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+  #projectx .lead_image {
+    width: 100%;
+    margin: 0px;
+    height: 170px;
+  }
+
+  #projectx .lead_text {
+text-align: center;
+width: 100%;
+left: 0px;
+  }
+
+  #projectx .lead_text p {
+    font-size: 40px;
+  }
+
+  #projectx .lead_text span {
+    font-size: 13px;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px #41352a;
+  }
+
+
+  #projectx .projectx_story {
+    position: relative;
+    top:0px;
+  }
+
+  #projectx .video_player_icon {
+    left: 35%;
+    top: 20%;
+  }
+
+ #projectx .embed_box.static_box .embed_container_overlay {
+    background:transparent;
+  }
+/*  .embed_box.static_box .embed_player_icon {
+    display:none;
+  }*/
+
+ .module-donate { display:none !important; }
+
+  #projectx.hutto .lead_image {
+    height:200px;
+  }
+
+  #projectx.hutto .lead_text {
+    bottom:35%;
+  }
+
+  #projectx.hutto .lead_image .video_player_icon {
+    display:none;
+  }
+
+}
+
+
+
+
+/*------------------------------------*\
+  NAV
+\*------------------------------------*/
+#nav{
+  list-style:none;
+  font-weight:bold;
+  margin-bottom:10px;
+  /* Clear floats */
+  float:left;
+  position:relative;
+  z-index:1;
+  min-width: 700px;
+  width: 100%
+}
+
+
+
+
+#nav > li:first-child {
+font-family: "ff-meta-serif-web-1","ff-meta-serif-web-2","Georgia",serif;
+font-weight: normal;
+font-size: 20px;
+margin-bottom: 0px;
+line-height: 1.3em;
+-webkit-font-smoothing: antialiased;
+padding: 6px 10px 7px 0px;
+color: #000;
+}
+
+#nav li.more_tab a .ss-icon{
+padding-right: 7px;
+position: relative;
+top: 2px;
+color:#999;
+}
+
+
+#nav li.more_tab:hover a .ss-icon {
+  color:#000;
+}
+
+ #nav li.more_tab {
+  border: 0px
+ }
+ #nav > li:last-child  {
+border: 0px;
+float: right;
+padding-bottom: 0px;
+padding-right: 0px;
+ }
+
+#series_bar.fixed #nav > li:last-child {
+  padding:13px 25px 0px;
+ }
+
+
+
+#nav li.selected{
+  cursor: default;
+}
+#nav li.selected a, #nav > li:first-child a {
+  opacity: 1;
+  color:#000;
+}
+
+#nav li img {
+  opacity: .5;
+}
+
+#nav li:hover > img, #nav li:hover .logo, #nav li.tal:hover img, #nav li:hover ul li:hover a img   {
+  opacity: 1;
+}
+
+
+#nav li{
+  float:left;
+  margin-right:10px;
+  position:relative;
+  margin: 0px;
+  cursor: pointer;
+  border-right: 1px solid #dedede;
+  padding: 11px 15px 10px 15px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 0px;
+  font-style: normal;
+  background: #fff;
+
+}
+
+#nav li ul li {
+  font-size: 11px
+}
+
+#series_bar.fixed #nav li {
+  padding: 15px 11px 10px 11px;
+}
+
+
+#nav a {
+display: inline-block;
+text-decoration: none;
+color: #5D7B9B;
+}
+
+
+#nav li:hover > a {
+  color:#000;
+  opacity: 1;
+}
+
+#nav img {
+  float: left;
+  padding:3px 8px 0px 5px;
+}
+
+/*--- DROPDOWN ---*/
+
+#nav ul{
+  background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+  background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+  list-style:none;
+  position:absolute;
+  left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+
+#nav ul li{
+  z-index: 10000000;
+  border-right: 0px;
+  padding: 5px 15px 10px 10px;
+  width: 170px;
+}
+
+
+#nav ul li:first-child {
+  margin-top:10px;
+  padding-top:10px;
+}
+#nav ul a{
+  white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+  left:0; /* Bring back on-screen when needed */
+}
+
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+  text-decoration:none;
+}
+#nav li:hover ul li:hover a{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+  color:#000;
+}
+
+
+#projectx .barchart_photo {
+  position: relative;
+}
+#projectx .barchart_photomobile {
+  display: none
+}
+#projectx .barchart_photo span {
+  position: absolute;
+  text-align: left
+}
+
+#projectx .barchart_photo .us_jar {
+  left:100px;
+  top:100px;
+  text-align:right
+}
+
+#projectx .barchart_photo .england_jar {
+  left: 396px;top: 310px;
+}
+
+#projectx .barchart_photo .germany_jar {
+left:510px; top:310px;
+}
+
+#projectx .barchart_photo .mexico_jar {
+left:626px; top:310px
+}
+
+
+#projectx .barchart_photo .main_guff {
+  left:396px;
+  top:100px;
+  width:450px
+}
+
+#projectx .barchart_photo .main_guff p{
+font-size: 13px;
+}
+
+#projectx .barchart_photo p {
+  font-size: 11px;
+}
+
+#projectx .barchart_photo .photo_credit {
+  font-size: 9px;
+  bottom:10px;
+  right:10px;
+  color:#666;
+}
+
+#nav ul a span:first-child {
+  width: 27px;
+display: inline-block;
+float: left;
+height: 18px;
+}
+
+#nav li.tal {
+ padding:5px 15px 6px 15px
+}
+
+#nav li.tal img.icon {
+  padding: 8px 5px 0px 5px;
+  width: 13px;
+}
+
+
+#nav li.tal img.logo {
+  padding-top:5px;
+  width: 80px
+}
+
+#nav li img.icon {
+  width: 10px;
+}
+
+#nav li img.video_icon {
+  width: 15px;
+  padding: 3px 5px 5px 5px;
+}
+
+#nav li img.article_icon {
+  width: 10px;
+  padding: 0px 5px 5px 5px;
+}
+
+#nav li img.socialchat_icon {
+  width: 13px;
+  padding: 2px 5px 2px 5px;
+}
+
+
+#series_bar.fixed #nav li.tal {
+  padding: 9px 15px 6px 15px;
+}
+
+#series_bar.fixed #nav li ul li {
+  padding: 5px 15px 10px 10px;
+}
+#projectx .narrower_text {
+width: 450px;
+}
+
+#projectx  .narrower_text .insert_container.right_insert {
+  margin:-30px -350px 10px 35px;
+}
+
+#projectx  p.break {
+width: 960px;
+display: block;
+border-top: 1px solid #dedede;
+margin: 50px 0px 50px -160px;
+}
+
+/* annotizer */
+
+.article.annotationMode .annotated {
+/*background:#FFFCAD !important;
+cursor:pointer;
+padding:1px 3px 1px 3px;
+box-shadow:0 0 3px #cecece;
+-webkit-box-shadow:0 0 3px #cecece;
+-moz-box-shadow:0 0 3px #cecece;
+border-radius:3px;
+display:inline;
+transition: all 0.10s ease-in-out;
+-webkit-transition: all 0.10s ease-in-out;
+-moz-transition: all 0.10s ease-in-out;
+*/}
+.article.annotationMode .annotated:hover {
+/*box-shadow:0 0 5px #999;
+-wekbkit-box-shadow:0 0 5px #999;
+-moz-box-shadow:0 0 5px #999;
+*/}
+.annotationPlaceholder {
+display:inline-block;
+}
+#annotation_popup {
+display:none;
+position:absolute;
+z-index:999999;
+
+}
+.DC-note-container {
+background:#fff;
+width:630px;
+}
+.DC-note .DC-note-excerpt-wrap {
+overflow: hidden;
+max-height: 300px;
+overflow-y: auto;
+}
+
+#annotation-onoff p {
+padding:0;
+margin:0;
+}
+.annotation-toggle {
+cursor: pointer;
+padding: 0px 6px;
+border-radius: 2px;
+background: #f7f4ed;
+border: 1px solid #aaa;
+width: 20px;
+text-align: center;
+opacity: .7;
+-moz-box-shadow:    inset 0 0 0px #999;
+-webkit-box-shadow: inset 0 0   0px #999;
+box-shadow:         inset 0 0   0px #999;
+}
+
+.annotation-toggle[data-state=off] {
+background: #d9d6c8;
+opacity: 1;
+ -moz-box-shadow:    inset 0 0 6px #999;
+-webkit-box-shadow: inset 0 0   6px #999;
+box-shadow:         inset 0 0   6px #999;
+}
+
+.annotation-close-box {
+height: 16px;
+width: 16px;
+background: #FFE325 url("http://propublica.s3.amazonaws.com/assets/carswell/cross-dark.gif") no-repeat center center;
+top: 0;
+left: 96%;
+cursor: pointer;
+position:absolute;
+}
+.annotation-arrow {
+background: transparent url('http://propublica.s3.amazonaws.com/assets/carswell/downarrow.png') no-repeat center center;
+height: 20px;
+width: 35px;
+top: 99%;
+position:absolute;
+}
+
+.module-donate {
+  background: transparent;
+  border: 1px solid #cecece;
+  border-radius: 3px;
+  box-shadow: 0 0 0 0;
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  padding: 40px 20px 20px;
+  position:relative;
+  margin-left:10px;
+}
+#projectx .module-donate h3 {
+  font-weight: 600;
+font-size: 24px;
+font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+padding-left: 0px;
+}
+.module-donate:before {
+  content: url(//s3.amazonaws.com/cdn.propublica.net/deploy/images/common/module-mag-glass.png);
+  position: absolute;
+  top: -13px;
+  left: 69px;
+}

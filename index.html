@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="jquery.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="style.css">  
+
+</head>
+
+<body>
+
+        <div class="container">
+
+        <header class="header-image">
+               
+                <h1> How Much Acetaminophen Are You Taking? </h1>
+                <p> #Call your doctor if you think you’ve overdosed </p>
+
+         <div id="drug"> 
+         
+        </div>
+        <h2 id="Good">   </h2>
+        <!-- <div id="horses">Hi Leslie!</div> -->
+     
+    </header>
+
+
+  <script>
+  
+  var Ddrug=0;
+  var Ddose=0;
+
+  // this is how you comment in javascript.
+
+        console.log("this is where javascript will go!");
+         
+
+         $(document).ready(function() {
+             $.getJSON('data.json')
+                .done(function(json){
+                 
+                var data = json;
+                console.log(data); 
+
+                // dynamically generating each image:
+                $.each(data, function(iterator, data) {
+                    console.log("Dose: ",data.Dose);
+                    var ddrugz = data.Dose;
+                    // Ddrug =ddrugz;
+                    console.log("Name: ",data.Name);
+                    //alert('hi');
+
+                    // creates each img tag with the data from the json: 
+                    // $('<img>').attr('src', data.Img).attr('class', 'thing').appendTo('#drug');
+                     $('<img>').attr('src', data.Img).attr('data_1', data.Dose).attr('id', 'd' + Ddrug).appendTo('#drug');
+                     Ddrug++;
+                });
+
+                // When the image is clicked:
+               
+                $('img').click(function(oh_click) {
+                   // console.log(document.getElementById('d10'));
+                   // document.getElementById("drug").innerHTML = ( Name + "  data.Name" + doseNumber + "data.Dose.");
+                   Ddose += parseInt($(this).attr('data_1'));
+                   //getting value fron data_1
+
+                   $('#Good').html(Ddose);
+                   //
+                   // $('#horses').html('Hi Leslie!');
+
+                   console.log(Ddose);
+                   // console.log($(this).attr('data_1') );
+                   //---Can't use Doc.getelement here, it's not Js is Jquery---///
+                     // $(this);
+
+
+                     // alert($(this).attr('id') );
+                })
+
+
+
+
+
+
+
+
+
+
+             });
+         });
+
+  
+    
+  </script>
+
+   </div>
+ </body>
+ </html>

@@ -1,0 +1,8 @@
+/* Nexus 7 */
+@media screen and (-webkit-min-device-pixel-ratio: 1.1) and (width: 601px) { html { zoom: 60.91370%; } }
+/* Samsung Galaxy */
+/* @media screen and (device-width: 800px) { html { zoom: 81.21827%; } } */
+/* Kindle Fire */
+@media screen and (device-width: 600px) { html { zoom: 60.91370%; } }
+/* iPad */
+@media screen and (device-width: 768px) { html { zoom: 77.96954%; } }
