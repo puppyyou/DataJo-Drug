@@ -3,11 +3,9 @@
  "Name":"Alka-Seltzer®",
  "Img":"Drug_pic/alkaseltzer.jpg"
  },
-
 {"Dose":4000,
  "Name":"Anacin®",
  "Img":"Drug_pic/anacin.jpg"},
-
 {"Dose":800,"Name":"Childrens Tylenol®","Img":"Drug_pic/childrenstylenol.jpg "},
 {"Dose":3900,"Name":"Coricidin","Img":"Drug_pic/coricidin.jpg "},
 {"Dose":1300,"Name":"Dayquil","Img":"Drug_pic/dayquil.jpg "},
