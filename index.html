@@ -17,32 +17,48 @@
 <body>
 
         <div class="container">
-
         <header class="header-image">
-               
                 <h1> How Much Acetaminophen Are You Taking? </h1>
                 <p> #Call your doctor if you think you’ve overdosed </p>
 
-         <div id="drug"> 
-         
-        </div>
-        <h2 id="Good">   </h2>
-        <!-- <div id="horses">Hi Leslie!</div> -->
-     
+
+        <!-- <div id="horses">Hi Leslie!</div> -->  
     </header>
 
+        <div id="containerInsideLeft">
+            <div id="drug"> 
+
+            </div>   
+        </div>
+
+        <div id="containerInsideRight">
+
+            <div class="kicker hidden">Total
+            
+            </div>
+            
+            <p3>Click on a image to see its daily limit of acetaminophen</p3>
+            
+            <div id="Good_1">
+            
+                <div id="Good">  
+
+                </div>    
+            <button class="kicker hidden reset">Try it again</button>
+            </div>  
+
+        </div>
+
+     </div>
+                
 
   <script>
+    // this is how you comment in javascript.
   
   var Ddrug=0;
   var Ddose=0;
 
-  // this is how you comment in javascript.
-
-        console.log("this is where javascript will go!");
-         
-
-         $(document).ready(function() {
+        $(document).ready(function() {
              $.getJSON('data.json')
                 .done(function(json){
                  
@@ -53,44 +69,63 @@
                 $.each(data, function(iterator, data) {
                     console.log("Dose: ",data.Dose);
                     var ddrugz = data.Dose;
-                    // Ddrug =ddrugz;
+
                     console.log("Name: ",data.Name);
                     //alert('hi');
 
-                    // creates each img tag with the data from the json: 
-                    // $('<img>').attr('src', data.Img).attr('class', 'thing').appendTo('#drug');
+                    // creates each img tag with the data from the json:    
                      $('<img>').attr('src', data.Img).attr('data_1', data.Dose).attr('id', 'd' + Ddrug).appendTo('#drug');
                      Ddrug++;
                 });
 
-                // When the image is clicked:
-               
+
+                
+                // When the image is clicked:  
+
                 $('img').click(function(oh_click) {
+
+                    $("p3").hide();
+
                    // console.log(document.getElementById('d10'));
                    // document.getElementById("drug").innerHTML = ( Name + "  data.Name" + doseNumber + "data.Dose.");
-                   Ddose += parseInt($(this).attr('data_1'));
+                   
+                   //Ddose =($(this).attr('data_1'))+Ddose;
+                   //Using parseInt to get string to number
+                    Ddose += parseInt($(this).attr('data_1'));
                    //getting value fron data_1
 
-                   $('#Good').html(Ddose);
-                   //
+                   if (Ddose > 0 ) {
+                    $(".kicker").removeClass("hidden");
+                    //remove class from CSS :  .hidden {display: none;}
+
+                   };
+
+
+                   $('#Good').html(Ddose); 
+
+                   if (Ddose>6000){
+                   $('#Good').addClass('redDose');
+
+                   //showing value in #Good section
+                   //add class to Css
+
+                   }
                    // $('#horses').html('Hi Leslie!');
 
                    console.log(Ddose);
                    // console.log($(this).attr('data_1') );
                    //---Can't use Doc.getelement here, it's not Js is Jquery---///
                      // $(this);
-
-
                      // alert($(this).attr('id') );
                 })
 
+             $('.reset').click(function(oh_click) {
 
+                Ddose = 0;
+                $('#Good').html(Ddose);
+                $('#Good').removeClass('redDose'); 
 
-
-
-
-
-
+             });
 
 
              });
@@ -100,6 +135,6 @@
     
   </script>
 
-   </div>
+
  </body>
  </html>

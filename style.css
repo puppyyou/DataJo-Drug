@@ -2,7 +2,7 @@
       /*width:760px;*/
    
       font-family: georgia, sans;
-       text-align: center;
+       //text-align: center;
   }
 
   h1 {
@@ -10,17 +10,46 @@
       margin-bottom:20px;
       padding-bottom:20px;
   }
-#container{
 
- background-color: blue;
+  .hidden {
+    display: none;
+  }
+.container{
+
+
  width: 80%;
+margin-left: auto;
+ margin-right: auto;
 }
+
+#containerInsideLeft {
+margin: auto;
+}
+
+#containerInsideRight {
+  margin: auto;
+  width: 48%;
+}
+
 
 #drug { 
-    margin-left:auto;
-    margin-right:auto;
-
-    width: 500px; 
+  float: left;
+/* width: 100px; */
+  //margin: 10px 10px 10px 0px;
+  width:600px;
 }
 
+#Good { 
+  font-size: 40px;
+  width: 500px;
+  
+}
 
+.redDose{
+color: red;
+
+}
+
+img {
+  margin: 10px 10px 0px 0px;
+}
